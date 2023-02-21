@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Metadatos-->
+    <meta charset="utf-8">
+    <meta name="author" content="Marianela Solange Ortiz">
+    <meta name="description" content="practica de desarrollo web de Marianela ortiz">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport"content="whidt=device-width, initial-scale=1">
+    <!--Titulo-->
+    <title>Marianela.S.Ortiz | Desarrollo Web Front-End</title>
+    <!--Favicom-->
+    <link rel="icon" type="image/x-icon" href="imagenes/briefcase-fill.svg">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--iconos de Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--css-->
+    <link href="style.css" rel="stylesheet">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  
+    <!--Barra de navegacion1-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarTogglerDemo01" style="">
+              <a class="navbar-brand" href="#">
+                <img src="imagenes/briefcase-fill.svg" width="45" alt="Logo de la página web">
+              </a>
+              <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#articulo">Articulos</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+              </ul>
+              
+            </div>
+          </div>   
+    
+    </nav>   
+   
+    <!--Seccion Hero-->
+<section class="hero align-items-stretch">
+    <div class="hero-principal">
+    <img class="hero-imagen-perfil img-fluid rounded-circle" src="imagenes/IMG_20220916_095429893.jpg" alt="Foto de Marianela Ortiz">
+    <h1>Hola, soy Marianela Solange Ortiz</h1>
+    <h2>Desarrollador de sitios web.</h2>
+  </div>
+  <div class="hero-inferior">
+    <img class="hero-inferior-imagen img-fluid" src="imagenes/programadores.svg" alt="Codigos de Programas">
+  </div>
+</section>
+
+<!--Sobre mí-->
+<section id="sobre-mi" class="sobre-mi seccion-oscura">
+  <div class="contenedor">
+    <h2 class="seccion-titulo">Conoce a Marianela Ortiz</h2>
+    <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at dui eu lectus ultrices hendrerit non eu libero. Praesent id mi sed nisi auctor rhoncus. Donec eu purus sollicitudin, efficitur velit et, aliquam sapien. Suspendisse commodo eros vel imperdiet consequat. Nam ullamcorper leo eu lacus fringilla, ac porta dolor ultricies. Aliquam in arcu lacus. Curabitur convallis lectus ac magna viverra vestibulum. Donec id ante malesuada, finibus massa a, sollicitudin lectus. Sed sed auctor lorem. Etiam sed tortor consequat, finibus est vitae, euismod metus. Aliquam dolor neque, efficitur ut luctus vel, gravida vitae est. Donec purus sapien, bibendum sed rutrum at, facilisis ut leo. Duis venenatis enim commodo erat pellentesque blandit.</p>
+  </div>
+</section>
+
+<!--Experiencia-->
+<section id="experiencia" class="experiencia seccion-clara">
+  <div class="container text-center">
+    <div class="row">
+      <!--Desarrollo Web-->
+      <div class="columna col-12 col-md-4">
+        <i class="bi bi-laptop"></i>
+        <p class="experiencia-titulo">Desarrollo Web</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at dui eu lectus ultrices hendrerit non eu libero. Praesent id mi sed nisi auctor rhoncus.</p>
+        <div class="badges-contenedor">
+          <span class="badge text-bg-primary">HTML</span>
+          <span class="badge text-bg-primary">CSS</span>
+          <span class="badge text-bg-primary">JavaScript</span>
+          <span class="badge text-bg-primary">React</span>
+        </div>
+      </div>
+      
+      <!--Articulos-->
+      <div class="columna col-12 col-md-4">
+        <i class="bi bi-journal-richtext"></i>
+        <p class="experiencia-titulo">Artículo</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at dui eu lectus ultrices hendrerit non eu libero. Praesent id mi sed nisi auctor rhoncus.</p>
+        <div class="badges-contenedor">
+          <span class="badge text-bg-primary">Escribir</span>
+          <span class="badge text-bg-primary">Editar</span>
+          <span class="badge text-bg-primary">Blogs</span>
+        </div>
+      </div>
+      
+      <!--Estudios-->
+      <div class="columna col-12 col-md-4">
+        <i class="bi bi-book-half"></i>
+        <p class="experiencia-titulo">Estudios</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at dui eu lectus ultrices hendrerit non eu libero. Praesent id mi sed nisi auctor rhoncus.</p>
+        <div class="badges-contenedor">
+          <span class="badge text-bg-primary">Argentina Programa</span>
+          <span class="badge text-bg-primary">Yo Programo</span>
+          <span class="badge text-bg-primary">Ticmas</span>
+          <span class="badge text-bg-primary">Desarrollo Web</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!--Proyectos-->
+<section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+  <h2 class="secciontitulo texto-negro">Mis Proyectos</h2>
+  <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+  
+  <!--Galeria de Proyectos-->
+  <div class="cpntainer text-center proyectos-contenedor">
+    <div class="row">
+      <!--Proyecto1-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="imagenes/proyecto 1.jpg" alt="Proyecto 1">
+          <div class="overlay">
+            <p>Proyecto 1</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://usuarios.profesional.ticmas.io/auth/realms/ticmas/protocol/openid-connect/auth?client_id=front-academy&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Facademy.profesional.ticmas.io%2Fapi%2Fauth%2Fcallback%2Fkeycloak&state=VUfhJFF6H1NeBeVYgJ9kDOjYnzJ_sWQWSXoPP8yYtWQ&code_challenge=QAw5dXRFce43yMqNy7zFJW8ICkfCUbkzgMMwStjpc7M&code_challenge_method=S256" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--Proyecto2-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="imagenes/proyecto2.webp" alt="Proyecto 2">
+          <div class="overlay">
+            <p>Proyecto 2</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://usuarios.profesional.ticmas.io/auth/realms/ticmas/protocol/openid-connect/auth?client_id=front-academy&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Facademy.profesional.ticmas.io%2Fapi%2Fauth%2Fcallback%2Fkeycloak&state=VUfhJFF6H1NeBeVYgJ9kDOjYnzJ_sWQWSXoPP8yYtWQ&code_challenge=QAw5dXRFce43yMqNy7zFJW8ICkfCUbkzgMMwStjpc7M&code_challenge_method=S256" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--Proyecto3-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="imagenes/proyecto3.png" alt="Proyecto 3">
+          <div class="overlay">
+            <p>Proyecto 3</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://usuarios.profesional.ticmas.io/auth/realms/ticmas/protocol/openid-connect/auth?client_id=front-academy&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Facademy.profesional.ticmas.io%2Fapi%2Fauth%2Fcallback%2Fkeycloak&state=VUfhJFF6H1NeBeVYgJ9kDOjYnzJ_sWQWSXoPP8yYtWQ&code_challenge=QAw5dXRFce43yMqNy7zFJW8ICkfCUbkzgMMwStjpc7M&code_challenge_method=S256" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--Proyecto4-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="imagenes/proyecto4.jpg" alt="Proyecto 4">
+          <div class="overlay">
+            <p>Proyecto 4</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://usuarios.profesional.ticmas.io/auth/realms/ticmas/protocol/openid-connect/auth?client_id=front-academy&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Facademy.profesional.ticmas.io%2Fapi%2Fauth%2Fcallback%2Fkeycloak&state=VUfhJFF6H1NeBeVYgJ9kDOjYnzJ_sWQWSXoPP8yYtWQ&code_challenge=QAw5dXRFce43yMqNy7zFJW8ICkfCUbkzgMMwStjpc7M&code_challenge_method=S256" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--Proyecto5-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="imagenes/proyecto5.jpg" alt="Proyecto 5">
+          <div class="overlay">
+            <p>Proyecto 5</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://usuarios.profesional.ticmas.io/auth/realms/ticmas/protocol/openid-connect/auth?client_id=front-academy&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Facademy.profesional.ticmas.io%2Fapi%2Fauth%2Fcallback%2Fkeycloak&state=VUfhJFF6H1NeBeVYgJ9kDOjYnzJ_sWQWSXoPP8yYtWQ&code_challenge=QAw5dXRFce43yMqNy7zFJW8ICkfCUbkzgMMwStjpc7M&code_challenge_method=S256" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Proyecto6-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="imagenes/proyecto6.jpg" alt="Proyecto 6">
+          <div class="overlay">
+            <p>Proyecto 6</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://usuarios.profesional.ticmas.io/auth/realms/ticmas/protocol/openid-connect/auth?client_id=front-academy&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Facademy.profesional.ticmas.io%2Fapi%2Fauth%2Fcallback%2Fkeycloak&state=VUfhJFF6H1NeBeVYgJ9kDOjYnzJ_sWQWSXoPP8yYtWQ&code_challenge=QAw5dXRFce43yMqNy7zFJW8ICkfCUbkzgMMwStjpc7M&code_challenge_method=S256" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+  <button type="button" class="btn btn-info">
+    Ver más Proyectos
+    <i class="bi bi-arrow-right-circle-fill"></i>
+  </button>
+</a>
+</section>
+<!--Articulo-->
+<section id="articulo" class="articulos justify-content-start">
+<h2 class="seccion-titulo texto-negro">Artículos</h2>
+<div class="card">
+  <div class="card">
+  <div class="card-header">
+    Más recientes
+  </div>
+  <ul class="list-group list-group-flush">
+    <a href="https://usuarios.profesional.ticmas.io/auth/realms/ticmas/protocol/openid-connect/auth?client_id=front-academy&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Facademy.profesional.ticmas.io%2Fapi%2Fauth%2Fcallback%2Fkeycloak&state=XIS3dob7TI89y4q-0uoRPu_aXwbkQP5kZSfrPjQxp_A&code_challenge=4h1fjsQiEFlN5CAARqO5H1sWYfVxAqiIR3OTKG_ftK8&code_challenge_method=S256" target="_blank" rel="nooppener noreferrer"> 
+      <li class="list-group-item">¿Cómo crear un título impactante?
+      </li>
+    </a>
+    <a href="https://usuarios.profesional.ticmas.io/auth/realms/ticmas/protocol/openid-connect/auth?client_id=front-academy&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Facademy.profesional.ticmas.io%2Fapi%2Fauth%2Fcallback%2Fkeycloak&state=XIS3dob7TI89y4q-0uoRPu_aXwbkQP5kZSfrPjQxp_A&code_challenge=4h1fjsQiEFlN5CAARqO5H1sWYfVxAqiIR3OTKG_ftK8&code_challenge_method=S256" target="_blank" rel="nooppener noreferrer"> 
+      <li class="list-group-item">
+        ¿Cómo hacer un título que llame la atencion?
+      </li> 
+    </a>
+    <a href="https://usuarios.profesional.ticmas.io/auth/realms/ticmas/protocol/openid-connect/auth?client_id=front-academy&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Facademy.profesional.ticmas.io%2Fapi%2Fauth%2Fcallback%2Fkeycloak&state=XIS3dob7TI89y4q-0uoRPu_aXwbkQP5kZSfrPjQxp_A&code_challenge=4h1fjsQiEFlN5CAARqO5H1sWYfVxAqiIR3OTKG_ftK8&code_challenge_method=S256" target="_blank" rel="nooppener noreferrer"> 
+      <li class="list-group-item">
+        Títulos y párrafos en HTML: sus etiquetas - Aprende Web
+      </li>
+    </a>
+    <a href="https://usuarios.profesional.ticmas.io/auth/realms/ticmas/protocol/openid-connect/auth?client_id=front-academy&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Facademy.profesional.ticmas.io%2Fapi%2Fauth%2Fcallback%2Fkeycloak&state=XIS3dob7TI89y4q-0uoRPu_aXwbkQP5kZSfrPjQxp_A&code_challenge=4h1fjsQiEFlN5CAARqO5H1sWYfVxAqiIR3OTKG_ftK8&code_challenge_method=S256" target="_blank" rel="nooppener noreferrer"> 
+    </li>
+    <li class="list-group-item">
+      ¡Las mejores ideas para los títulos de tus trabajos!
+    </li>
+    </a>
+    <a href="https://usuarios.profesional.ticmas.io/auth/realms/ticmas/protocol/openid-connect/auth?client_id=front-academy&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Facademy.profesional.ticmas.io%2Fapi%2Fauth%2Fcallback%2Fkeycloak&state=XIS3dob7TI89y4q-0uoRPu_aXwbkQP5kZSfrPjQxp_A&code_challenge=4h1fjsQiEFlN5CAARqO5H1sWYfVxAqiIR3OTKG_ftK8&code_challenge_method=S256" target="_blank" rel="nooppener noreferrer"> 
+      <li class="list-group-item">
+        Certificado Desarrollo Web - Certificado en Desarrollo Web
+      </li>
+    </a>
+  </ul>
+  </div>
+</div>
+<a href="https://usuarios.profesional.ticmas.io/auth/realms/ticmas/protocol/openid-connect/auth?client_id=front-academy&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Facademy.profesional.ticmas.io%2Fapi%2Fauth%2Fcallback%2Fkeycloak&state=XIS3dob7TI89y4q-0uoRPu_aXwbkQP5kZSfrPjQxp_A&code_challenge=4h1fjsQiEFlN5CAARqO5H1sWYfVxAqiIR3OTKG_ftK8&code_challenge_method=S256" target="_blank" rel="noopener noreferrer">
+  <button type="button" class="btn btn-info">
+  Más Artículos
+  <i class="bi bi-arrow-right-circle-fill"></i>
+</button>
+</a>
+</section>
+
+<!--Contacto-->
+<section id="contacto" class="contacto seccion-oscura">
+  <div class="container">
+    <div class="conteiner text-center rectangulo d-flex justify-content-evenly">
+      <div class="row">
+        <div class="col-12 col-md-4 seccion-titulo">
+          ¡Hablemos!
+        </div>
+        <div class="col2 col-md-4 descripcion">
+          Contáctame para iniciar tu proyecto de Desarrollo web y haré que tu visión se vuelva realidad.
+        </div>
+        <div class="col-12 col-md-4">
+          <a href="mailto:marianelaortiz@micorreo.com">
+            <button type="button">
+              Contacto
+              <i class="bi bi-envelope-at-fill"></i>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Pie de pagina (footer)-->
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+  <img class="footer-logo" src="imagenes/logo.svg" alt="Logo de el cv">
+  <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+  <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+    <a href="https://www.instagram.com/argentinaprograma4.0/?hl=es" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="https://www.facebook.com/people/Argentina-Programa-40/100084956654182/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-facebook"></i>
+    </a>
+    <a href="https://ar.linkedin.com/school/programa-argentina/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="mailto:marianelaortiz@micorreo.com" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-envelope"></i>
+    </a>    
+  </div>
+  <div class="derechos-de-autor">Creado por Marianela Ortiz (2023) &#169;</div>
+</footer>
+<script src="function.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
