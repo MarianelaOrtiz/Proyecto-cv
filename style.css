@@ -67,7 +67,7 @@ color: black;
 
 
 .hero {
-    background-image: url(/imagenes/pexels-pixabay-531880.jpg);
+    background-image: url(imagenes/pexels-pixabay-531880.jpg);
     min-height: 450px;
     text-align: center;
 }
